@@ -47,24 +47,24 @@
                     <polygon id="e1_366" points="13.04 12.1018182 6.91 0.626363636 0.91 12.1018182"></polygon>
                 </g>
             </g>
-            <text id="CODE" fill="#000000" font-family="Arial-BoldMT, Arial" font-size="15.65" font-weight="bold">
+            <text id="headerSVG.code" fill="#000000" font-family="Arial-BoldMT, Arial" font-size="15.65" font-weight="bold">
                 <tspan x="0" y="25.34">CODE</tspan>
             </text>
-            <text id="LEARN" fill="#000000" font-family="Arial-BoldMT, Arial" font-size="15.65" font-weight="bold">
+            <text id="headerSVG.learn" fill="#000000" font-family="Arial-BoldMT, Arial" font-size="15.65" font-weight="bold">
                 <tspan x="129.79" y="24.52">LEARN</tspan>
             </text>
             <g id="Group" transform="translate(6.000000, 154.000000)" fill="#000000" font-family="Arial-BoldMT, Arial" font-size="15.65" font-weight="bold">
-                <text id="REPOSI">
+                <text id="headerSVG.repository1">
                     <tspan x="0.04" y="14.3">REPOSITORY</tspan>
                 </text>
             </g>
             <g id="Group" transform="translate(6.000000, 284.000000)" fill="#000000" font-family="Arial-BoldMT, Arial" font-size="15.65" font-weight="bold">
-                <text id="REPOSI">
+                <text id="headerSVG.repository2">
                     <tspan x="0.04" y="14.7">REPOSITORY</tspan>
                 </text>
             </g>
             <g id="Group" transform="translate(6.000000, 417.000000)" fill="#000000" font-family="Arial-BoldMT, Arial" font-size="15.65" font-weight="bold">
-                <text id="REPOSI">
+                <text id="headerSVG.repository3">
                     <tspan x="0.04" y="14.72">REPOSITORY</tspan>
                 </text>
             </g>
