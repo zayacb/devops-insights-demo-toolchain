@@ -1,0 +1,67 @@
+version: '2'
+messages:
+  $i18n: locales.yml
+template:
+  name:
+    $ref: "#/messages/template.name"
+  description:
+    $ref: "#/messages/template.description"
+  header: '![](toolchain.svg?localize)'
+  icon: icon.png
+  required:
+    - catalog-api-repo
+    - orders-api-repo
+    - ui-repo
+    - dra
+  info:
+    git url: >-
+      [https://github.com/devops-insights/DevOpsInsights_Demo_Toolchain_Template](https://github.com/devops-insights/DevOpsInsights_Demo_Toolchain_Template)
+    git branch: >-
+      [master](https://github.com/devops-insights/DevOpsInsights_Demo_Toolchain_Template/tree/master)
+toolchain:
+  template:
+    getting_started:
+      $ref: "#/messages/template.gettingStarted"
+  name: 'devopsinsights-demo-toolchain-{{timestamp}}'
+services:
+  catalog-api-repo:
+    service_id: githubpublic
+    parameters:
+      repo_name: '{{form.githubpublic.parameters.catalog-api-repo_name}}'
+      repo_url: '{{form.githubpublic.parameters.catalog-api-repo_url}}'
+      source_repo_url: '{{form.githubpublic.parameters.catalog-api-repo_url}}'
+      type: link
+      has_issues: false
+      enable_traceability: false
+  ui-repo:
+    service_id: githubpublic
+    parameters:
+      repo_name: '{{form.githubpublic.parameters.ui-repo_name}}'
+      repo_url: '{{form.githubpublic.parameters.ui-repo_url}}'
+      source_repo_url: '{{form.githubpublic.parameters.ui-repo_url}}'
+      type: link
+      has_issues: false
+      enable_traceability: false
+  orders-api-repo:
+    service_id: githubpublic
+    parameters:
+      repo_name: '{{form.githubpublic.parameters.orders-api-repo_name}}'
+      repo_url: '{{form.githubpublic.parameters.orders-api-repo_url}}'
+      source_repo_url: '{{form.githubpublic.parameters.orders-api-repo_url}}'
+      type: link
+      has_issues: false
+      enable_traceability: false
+  dra:
+    service_id: draservicebroker
+    $ref: doi.yml
+form:
+  githubpublic:
+    parameters:
+      catalog-api-repo_name: 'catalog-api-{{toolchain.name}}'
+      catalog-api-repo_url: 'https://github.com/devops-insights/Microservices_CatalogAPI'
+      orders-api-repo_name: 'orders-api-{{toolchain.name}}'
+      orders-api-repo_url: 'https://github.com/devops-insights/Microservices_OrdersAPI'
+      ui-repo_name: 'ui-{{toolchain.name}}'
+      ui-repo_url: 'https://github.com/devops-insights/Microservices_UI'
+    schema:
+      $ref: repos.json
