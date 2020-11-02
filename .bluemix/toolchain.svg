@@ -68,10 +68,10 @@
                     <tspan x="0.04" y="14.72">REPOSITORY</tspan>
                 </text>
             </g>
-            <text id="DEVOPS" fill="#000000" font-family="Arial-BoldMT, Arial" font-size="15.65" font-weight="bold">
+            <text id="headerSVG.devops" fill="#000000" font-family="Arial-BoldMT, Arial" font-size="15.65" font-weight="bold">
                 <tspan x="140.71" y="168.3">DEVOPS</tspan>
             </text>
-            <text id="INSIGHTS" fill="#000000" font-family="Arial-BoldMT, Arial" font-size="15.65" font-weight="bold">
+            <text id="headerSVG.insights" fill="#000000" font-family="Arial-BoldMT, Arial" font-size="15.65" font-weight="bold">
                 <tspan x="136.79" y="184.92">INSIGHTS</tspan>
             </text>
             <path d="M99.05,379.63 L168.85,379.61" id="e2_line" stroke="#5AAAFA" stroke-width="2"></path>
