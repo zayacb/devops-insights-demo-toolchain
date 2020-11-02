@@ -68,12 +68,16 @@
                     <tspan x="0.04" y="14.72">REPOSITORY</tspan>
                 </text>
             </g>
-            <text id="headerSVG.devops" fill="#000000" font-family="Arial-BoldMT, Arial" font-size="15.65" font-weight="bold">
-                <tspan x="140.71" y="168.3">DEVOPS</tspan>
-            </text>
-            <text id="headerSVG.insights" fill="#000000" font-family="Arial-BoldMT, Arial" font-size="15.65" font-weight="bold">
-                <tspan x="136.79" y="184.92">INSIGHTS</tspan>
-            </text>
+            <g id="Group" transform="translate(8.000000, 154.000000)" fill="#000000" font-family="Arial-BoldMT, Arial" font-size="15.65" font-weight="bold">
+                <text id="headerSVG.devops">
+                    <tspan x="0.04" y="14.72">DEVOPS</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(8.000000, 154.000000)" fill="#000000" font-family="Arial-BoldMT, Arial" font-size="15.65" font-weight="bold">
+                <text id="headerSVG.insights">
+                    <tspan x="136.79" y="184.92">INSIGHTS</tspan>
+                </text>
+            </g>
             <path d="M99.05,379.63 L168.85,379.61" id="e2_line" stroke="#5AAAFA" stroke-width="2"></path>
             <path d="M170.94,192.73 L169.87,380.66" id="e3_line" stroke="#5AAAFA" stroke-width="2"></path>
             <circle id="svg_4-2" stroke="#5AAAFA" fill="#FFFFFF" fill-rule="nonzero" cx="170.97" cy="113.01" r="34.56"></circle>
