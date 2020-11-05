@@ -15,9 +15,9 @@ template:
     - dra
   info:
     git url: >-
-      [https://github.com/devops-insights/DevOpsInsights_Demo_Toolchain_Template](https://github.com/devops-insights/DevOpsInsights_Demo_Toolchain_Template)
+      [https://github.com/devops-insights/DevOpsInsights_Demo_Toolchain_Template](https://github.com/open-toolchain/devops-insights-demo-toolchain)
     git branch: >-
-      [master](https://github.com/devops-insights/DevOpsInsights_Demo_Toolchain_Template/tree/master)
+      [master](https://github.com/open-toolchain/devops-insights-demo-toolchain/tree/master)
 toolchain:
   template:
     getting_started:
