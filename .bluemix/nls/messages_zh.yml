@@ -1,6 +1,6 @@
 ---
 template.name: "DevOps Insights 快速入门演示"
-template.description: "无需任何设置开始探索 Insights！此演示包含从我们自己的引用区块链预加载的数据以及三个示例 GitHub 存储库。您只需登录 IBM Cloud。\n\n在这里可以探索许多功能。首先，在“质量仪表板”中可以查看如何为所有应用程序组织来自所有团队的测试、构建和部署数据。收集的这些信息不仅可以帮助您了解团队在确保每个版本质量方面表现如何，还可以提高不同贡献团队之间的透明度。其次，可以评估趋势并了解哪些领域需要改进，以便您知道应该在哪里重点投入资源。最后，在 Team Dynamic 中可以复查对于每个版本团队成员是如何协作的。\n\n单击**创建**以开始。这样将转至 DevOps 仪表板，您可以在此查看该工具链。在其中，选择 DevOps Insights 卡来探索 Insights。\n\n有关逐步指示信息，请参阅[教程](https://www.ibm.com/devops/method/tutorials/explore-ibm-cloud-devops-insights)。"
+template.description: "无需任何设置开始探索 Insights！此演示包含从我们自己的引用工具链预加载的数据以及三个示例 GitHub 存储库。您只需登录 IBM Cloud。\n\n在这里可以探索许多功能。首先，在“质量仪表板”中可以查看如何为所有应用程序组织来自所有团队的测试、构建和部署数据。收集的这些信息不仅可以帮助您了解团队在确保每个版本质量方面表现如何，还可以提高不同贡献团队之间的透明度。其次，可以评估趋势并了解哪些领域需要改进，以便您知道应该在哪里重点投入资源。最后，在“团队动态”中可以复查对于每个版本团队成员是如何协作的。\n\n单击**创建**以开始。这样将转至 DevOps 仪表板，您可以在此查看该工具链。在其中，选择 DevOps Insights 卡来探索 Insights。\n\n有关逐步指示信息，请参阅[教程](https://www.ibm.com/devops/method/tutorials/explore-ibm-cloud-devops-insights)。"
 template.gettingStarted: "**您的工具链已就绪！**\n 单击 DevOps Insights 卡来探索 DevOps Insights 功能。"
 deploy.title: "微服务部署阶段"
 deploy.description: "微服务部署模式"
